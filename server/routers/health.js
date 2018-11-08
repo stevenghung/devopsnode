@@ -4,7 +4,7 @@ module.exports = function(app) {
   var router = express.Router();
 
   router.get('/', function (req, res, next) {
-    res.json({status: 'UP 2'});
+    res.json({status: 'UP 3'});
   });
 
   app.use("/health", router);
